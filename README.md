@@ -11,3 +11,6 @@ State Diagram:
 * The state transition depends on the number of SCL rising edges that have occurred and the ACK/NACK bit stored in a register.<br><br>
 State Diagram:
 <img src="Images/FSM_2_Tek.jpg" alt="Alt text" width="1000"><br>
+
+## Outcome
+* A reliable I2C channel operates at standard mode (100 kHz) and full speed (400 kHz), transmitting operation-critical information between a battery charge controller and an IoT gateway without flipping any bits. This issue of bit flipping occurred frequently at a rate greater than 4 kHz before implementing this controller.
